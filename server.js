@@ -17,7 +17,7 @@ app.use(express.json())
 app.use("/api/leads", leadRoutes)
 app.use("/api/admin", adminRoutes)
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 50011
 app.listen(PORT, () =>
   console.log(`Server running on port ${PORT}`)
 )
